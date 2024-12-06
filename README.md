@@ -18,7 +18,7 @@ This project is a straightforward API built with PHP and the Slim framework and 
   Endpoint: `/user/register`  
   Method: `POST`  
   Payload:  
-  ```json
+  ```
   {
     "username": "your_username",
     "password": "your_password"
@@ -28,7 +28,7 @@ This project is a straightforward API built with PHP and the Slim framework and 
   Endpoint: `/user/auth`  
   Method: `POST`  
   Payload:  
-  ```json
+  ```
   {
     "username": "your_username",
     "password": "your_password"
@@ -38,7 +38,7 @@ This project is a straightforward API built with PHP and the Slim framework and 
   Endpoint: `/user/show`  
   Method: `GET`  
   Payload:  
-  ```json
+  ```
 {
   "Authorization": "Bearer your_token"
 }
@@ -47,7 +47,7 @@ This project is a straightforward API built with PHP and the Slim framework and 
   Endpoint: `/user/update`  
   Method: `PUT`  
   Payload:  
-  ```json
+  ```
 {
   "token": "your_token",
   "userid": "your_userid",
@@ -59,7 +59,7 @@ This project is a straightforward API built with PHP and the Slim framework and 
   Endpoint: `/user/update`  
   Method: `DELETE`  
   Payload:  
-  ```json
+  ```
 {
   "token": "your_token",
   "userid": "your_userid"
@@ -71,7 +71,7 @@ This project is a straightforward API built with PHP and the Slim framework and 
   Endpoint: `/author/register`  
   Method: `POST`  
   Payload:  
-  ```json
+  ```
   {
   "token": "your_token",
   "name": "author_name"
@@ -81,7 +81,7 @@ This project is a straightforward API built with PHP and the Slim framework and 
   Endpoint: `/author/show`  
   Method: `GET`  
   Payload:  
-  ```json
+  ```
 {
   "Authorization": "Bearer your_token"
 }
@@ -90,7 +90,7 @@ This project is a straightforward API built with PHP and the Slim framework and 
   Endpoint: `/author/update`  
   Method: `PUT`  
   Payload:  
-  ```json
+  ```
 {
   "token": "your_token",
   "authorid": "author_id",
@@ -101,7 +101,7 @@ This project is a straightforward API built with PHP and the Slim framework and 
   Endpoint: `/author/update`  
   Method: `DELETE`  
   Payload:  
-  ```json
+  ```
 {
   "token": "your_token",
   "authorid": "author_id"
@@ -113,7 +113,7 @@ This project is a straightforward API built with PHP and the Slim framework and 
   Endpoint: `/book/register`  
   Method: `POST`  
   Payload:  
-  ```json
+  ```
   {
   "token": "your_jwt_token",
   "title": "book_title",
@@ -124,7 +124,7 @@ This project is a straightforward API built with PHP and the Slim framework and 
   Endpoint: `/book/show`  
   Method: `GET`  
   Payload:  
-  ```json
+  ```
 {
   "Authorization": "Bearer your_token"
 }
@@ -133,7 +133,7 @@ This project is a straightforward API built with PHP and the Slim framework and 
   Endpoint: `/book/update`  
   Method: `PUT`  
   Payload:  
-  ```json
+  ```
 {
   "token": "your_jwt_token",
   "bookid": 1,
@@ -145,7 +145,7 @@ This project is a straightforward API built with PHP and the Slim framework and 
   Endpoint: `/book/update`  
   Method: `DELETE`  
   Payload:  
-  ```json
+  ```
 {
   "token": "your_jwt_token",
   "bookid": 1
@@ -157,7 +157,7 @@ This project is a straightforward API built with PHP and the Slim framework and 
   Endpoint: `/book_author/register`  
   Method: `POST`  
   Payload:  
-  ```json
+  ```
   {
   "token": "your_jwt_token",
   "bookid": 1,
@@ -168,7 +168,7 @@ This project is a straightforward API built with PHP and the Slim framework and 
   Endpoint: `/book_author/show`  
   Method: `GET`  
   Payload:  
-  ```json
+  ```
 {
   "Authorization": "Bearer your_token"
 }
@@ -177,7 +177,7 @@ This project is a straightforward API built with PHP and the Slim framework and 
   Endpoint: `/book_author/update`  
   Method: `PUT`  
   Payload:  
-  ```json
+  ```
 {
   "token": "your_jwt_token",
   "collectionid": 1,
@@ -189,7 +189,7 @@ This project is a straightforward API built with PHP and the Slim framework and 
   Endpoint: `/book_author/update`  
   Method: `DELETE`  
   Payload:  
-  ```json
+  ```
 {
   "token": "your_jwt_token",
   "collectionid": 1
