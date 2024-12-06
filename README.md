@@ -23,7 +23,7 @@ This project is a straightforward API built with PHP and the Slim framework and 
     "username": "your_username",
     "password": "your_password"
   }
-  
+  ```
 - **Authenticate User**  
   Endpoint: `/user/auth`  
   Method: `POST`  
@@ -33,38 +33,38 @@ This project is a straightforward API built with PHP and the Slim framework and 
     "username": "your_username",
     "password": "your_password"
   }
-
+  ```
   - **Show User**  
   Endpoint: `/user/show`  
   Method: `GET`  
   Payload:  
   ```
-{
-  "Authorization": "Bearer your_token"
-}
-
+  {
+    "Authorization": "Bearer your_token"
+  }
+  ```
   - **Update User**  
   Endpoint: `/user/update`  
   Method: `PUT`  
   Payload:  
   ```
-{
-  "token": "your_token",
-  "userid": "your_userid",
-  "username": "your_new_username",
-  "password": "your_new_password"
-}
-
+  {
+    "token": "your_token",
+    "userid": "your_userid",
+    "username": "your_new_username",
+    "password": "your_new_password"
+  }
+  ```
   - **Delete User**  
   Endpoint: `/user/update`  
   Method: `DELETE`  
   Payload:  
   ```
-{
-  "token": "your_token",
-  "userid": "your_userid"
-}
-
+  {
+    "token": "your_token",
+    "userid": "your_userid"
+  }
+  ```
 ### Author Management
 
 - **Register Author**  
@@ -76,37 +76,37 @@ This project is a straightforward API built with PHP and the Slim framework and 
   "token": "your_token",
   "name": "author_name"
   }
-
+  ```
   - **Show Author**  
   Endpoint: `/author/show`  
   Method: `GET`  
   Payload:  
   ```
-{
-  "Authorization": "Bearer your_token"
-}
-
+  {
+    "Authorization": "Bearer your_token"
+  }
+  ```
   - **Update Author**  
   Endpoint: `/author/update`  
   Method: `PUT`  
   Payload:  
   ```
-{
-  "token": "your_token",
-  "authorid": "author_id",
-  "name": "author_name"
-}
-
+  {
+    "token": "your_token",
+    "authorid": "author_id",
+    "name": "author_name"
+  }
+  ```
   - **Delete Author**  
   Endpoint: `/author/update`  
   Method: `DELETE`  
   Payload:  
   ```
-{
-  "token": "your_token",
-  "authorid": "author_id"
-}
-
+  {
+    "token": "your_token",
+    "authorid": "author_id"
+  }
+  ```
 ### Book Management
 
 - **Register Book**  
@@ -119,38 +119,38 @@ This project is a straightforward API built with PHP and the Slim framework and 
   "title": "book_title",
   "authorid": 1
   }
-
+  ```
   - **Show Book**  
   Endpoint: `/book/show`  
   Method: `GET`  
   Payload:  
   ```
-{
-  "Authorization": "Bearer your_token"
-}
-
+  {
+    "Authorization": "Bearer your_token"
+  }
+  ```
   - **Update Book**  
   Endpoint: `/book/update`  
   Method: `PUT`  
   Payload:  
   ```
-{
-  "token": "your_jwt_token",
-  "bookid": 1,
-  "title": "new_book_title",
-  "authorid": 1
-}
-
+  {
+    "token": "your_jwt_token",
+    "bookid": 1,
+    "title": "new_book_title",
+    "authorid": 1
+  }
+  ```
   - **Delete Book**  
   Endpoint: `/book/update`  
   Method: `DELETE`  
   Payload:  
   ```
-{
-  "token": "your_jwt_token",
-  "bookid": 1
-}
-
+  {
+    "token": "your_jwt_token",
+    "bookid": 1
+  }
+  ```
 ### Book_Author Management
 
 - **Register Book Author**  
@@ -163,27 +163,28 @@ This project is a straightforward API built with PHP and the Slim framework and 
   "bookid": 1,
   "authorid": 1
   }
-
+  ```
   - **Show Book Author**  
   Endpoint: `/book_author/show`  
   Method: `GET`  
   Payload:  
   ```
-{
-  "Authorization": "Bearer your_token"
-}
-
+  {
+    "Authorization": "Bearer your_token"
+  }
+  ```
   - **Update Book Author**  
   Endpoint: `/book_author/update`  
   Method: `PUT`  
   Payload:  
   ```
-{
-  "token": "your_jwt_token",
-  "collectionid": 1,
-  "bookid": 1,
-  "authorid": 1
-}
+  {
+    "token": "your_jwt_token",
+    "collectionid": 1,
+    "bookid": 1,
+    "authorid": 1
+  }
+  ```
 
   - **Delete Book Author**  
   Endpoint: `/book_author/update`  
