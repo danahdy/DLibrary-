@@ -56,7 +56,7 @@ This project is a straightforward API built with PHP and the Slim framework and 
     }
   ```
   - **Delete User**  
-  Endpoint: `/user/update`  
+  Endpoint: `/user/delete`  
   Method: `DELETE`  
   Payload:  
   ```
@@ -98,7 +98,7 @@ This project is a straightforward API built with PHP and the Slim framework and 
     }
   ```
   - **Delete Author**  
-  Endpoint: `/author/update`  
+  Endpoint: `/author/delete`  
   Method: `DELETE`  
   Payload:  
   ```
@@ -142,7 +142,7 @@ This project is a straightforward API built with PHP and the Slim framework and 
     }
   ```
   - **Delete Book**  
-  Endpoint: `/book/update`  
+  Endpoint: `/book/delete`  
   Method: `DELETE`  
   Payload:  
   ```
@@ -187,7 +187,7 @@ This project is a straightforward API built with PHP and the Slim framework and 
   ```
 
   - **Delete Book Author**  
-  Endpoint: `/book_author/update`  
+  Endpoint: `/book_author/delete`  
   Method: `DELETE`  
   Payload:  
   ```
